@@ -104,10 +104,10 @@ ORDER BY salary_year_avg DESC;
 ![Most Requested Skills Among the Top 10 Highest-Paying Jobs](images/2_top_paying_job_skills.png)
 
 **Insights:**
-- **SQL leads** the pack, appearing in 8 of the top 10 postings — it's essentially a prerequisite at the top of the pay scale.
+- **SQL leads** the pack, appearing in 8 of the top 10 postings - it's essentially a prerequisite at the top of the pay scale.
 - **Python** is close behind, appearing 7 times, reinforcing that programming skills go hand-in-hand with high pay.
 - **Tableau** shows up 6 times, underlining that data visualization is a highly valued skill for senior/high-paying roles.
-- Other tools — **R, Snowflake, Excel, Power BI, cloud platforms (AWS/Azure)** — appear with varying frequency, rounding out the toolkit expected of a well-paid data analyst.
+- Other tools — **R, Snowflake, Excel, Power BI, cloud platforms (AWS/Azure)** - appear with varying frequency, rounding out the toolkit expected of a well-paid data analyst.
 
 ---
 
@@ -166,13 +166,13 @@ LIMIT 25;
 **Insights:**
 - **Niche/specialized tools pay the most:** skills like `SVN`, `Solidity`, and `Couchbase` top the list — these appear in relatively few postings, but the ones that do ask for them pay a premium, likely reflecting specialized or blockchain/engineering-adjacent roles.
 - **Big data & ML skills pay well:** `Kafka`, `PyTorch`, `TensorFlow`, `Keras`, and `Hugging Face` all rank highly, showing that analysts who can cross over into data engineering / ML earn more.
-- **DevOps & cloud-adjacent tools** (`Terraform`, `Ansible`, `Puppet`, `GitLab`, `Bitbucket`) also command strong salaries — a sign that data analysts with software-engineering-adjacent skills are rewarded financially.
+- **DevOps & cloud-adjacent tools** (`Terraform`, `Ansible`, `Puppet`, `GitLab`, `Bitbucket`) also command strong salaries - a sign that data analysts with software-engineering-adjacent skills are rewarded financially.
 
 ---
 
 ### 5. Most Optimal Skills to Learn
 
-Finally, I combined demand and salary data to find skills that are **both** in high demand and well paid — the best ROI for someone deciding what to learn next. This focuses on remote positions with a specified salary and a demand count above 10 (to filter out noise from one-off postings).
+Finally, I combined demand and salary data to find skills that are **both** in high demand and well paid - the best ROI for someone deciding what to learn next. This focuses on remote positions with a specified salary and a demand count above 10 (to filter out noise from one-off postings).
 
 ```sql
 SELECT
@@ -201,8 +201,8 @@ LIMIT 25;
 ![Optimal Skills: High Demand vs High Salary](images/5_optimal_skills.png)
 
 **Insights:**
-- **Python and R** stand out in the upper-right of the chart — strong demand paired with salaries above $100K, making them arguably the best skills to prioritize.
-- **SQL** anchors the far right of the chart with the highest demand count (398) at a very solid ~$97K average — the safest, most universally required skill.
+- **Python and R** stand out in the upper-right of the chart - strong demand paired with salaries above $100K, making them arguably the best skills to prioritize.
+- **SQL** anchors the far right of the chart with the highest demand count (398) at a very solid ~$97K average - the safest, most universally required skill.
 - **Cloud & big-data skills** (`Azure`, `AWS`, `Snowflake`, `Hadoop`, `Go`) offer some of the highest salaries on this list (~$108K–$115K) despite lower demand — good "specialize to differentiate" options once the core stack is covered.
 - **Visualization tools** (`Tableau`, `Power BI`, `Looker`) cluster in the $97K–$104K range with solid demand, confirming they're a dependable, well-rounded addition to a data analyst's skill set.
 
@@ -224,14 +224,14 @@ Through this project I strengthened my SQL toolkit with:
 ### Insights
 From the analysis, several general insights emerged about the 2023 data analyst job market:
 
-1. **Top-paying remote data analyst jobs** range widely, from $184K up to $650K — real earning potential exists in the field.
+1. **Top-paying remote data analyst jobs** range widely, from $184K up to $650K - real earning potential exists in the field.
 2. **SQL is non-negotiable.** It's the most in-demand skill overall *and* one of the most common skills in the highest-paying jobs.
 3. **Specialized skills = higher pay.** Niche tools (`SVN`, `Solidity`, `Couchbase`) and ML/big-data skills (`Kafka`, `PyTorch`, `TensorFlow`) are associated with the highest average salaries.
 4. **Python, R, and cloud tools (Azure/AWS/Snowflake) offer the best "optimal" combination** of solid demand and strong pay — the highest-value skills to learn next after mastering SQL and Excel.
 5. Overall, **SQL** is confirmed as the most valuable skill for data analysts to learn, maximizing both market value (demand) and financial value (salary).
 
 ### Closing Thoughts
-This project sharpened my SQL skills and gave me practical insight into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts — the data suggests that focusing on high-demand, high-salary skills like SQL, Python, and cloud/BI tools can help aspiring data analysts position themselves competitively. This exploration also reinforces how important it is to continuously learn and adapt to emerging trends in the field of data analytics.
+This project sharpened my SQL skills and gave me practical insight into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts - the data suggests that focusing on high-demand, high-salary skills like SQL, Python, and cloud/BI tools can help aspiring data analysts position themselves competitively. This exploration also reinforces how important it is to continuously learn and adapt to emerging trends in the field of data analytics.
 
 ---
 
