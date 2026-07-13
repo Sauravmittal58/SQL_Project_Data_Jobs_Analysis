@@ -1,6 +1,0 @@
-#Introduction
-#Background
-#Tools I Used during whole work
-#The Analysis
-#What I Learned
-#Conclusions
