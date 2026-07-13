@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/29985263/README.md)
 # 📊 Data Analyst Job Market Analysis (SQL Project)
 
-Exploring the 2023 data job market through SQL — with a focus on **Data Analyst** roles — to answer a simple question: *what should I actually learn to land a high-paying, in-demand job?*
+Exploring the 2023 data job market through SQL - with a focus on **Data Analyst** roles - to answer a simple question: *what should I actually learn to land a high-paying, in-demand job?*
 
 This project queries a job-postings dataset with PostgreSQL to uncover the top-paying roles, the skills those roles demand, the most in-demand skills across the market, the highest-paying skills, and finally the "optimal" skills that combine both high demand and high pay.
 
@@ -21,11 +21,11 @@ The data comes from a dataset of real-world job postings covering job titles, sa
 
 ### Tools I Used
 
-- **SQL** — the backbone of the analysis, letting me query the database and surface critical insights
-- **PostgreSQL** — the chosen database management system, well suited to handling the job-posting data
-- **Python (pandas / matplotlib)** — to turn the query results into the visualizations below
-- **Visual Studio Code** — for writing and executing SQL/Python scripts
-- **Git & GitHub** — for version control and sharing the analysis
+- **SQL** - the backbone of the analysis, letting me query the database and surface critical insights
+- **PostgreSQL** - the chosen database management system, well suited to handling the job-posting data
+- **Python (pandas / matplotlib)** - to turn the query results into the visualizations below
+- **Visual Studio Code** - for writing and executing SQL/Python scripts
+- **Git & GitHub** - for version control and sharing the analysis
 
 ---
 
